@@ -6,18 +6,21 @@
   <script>
   $(document).keydown(function(e) {
   	var keycode = e.keyCode || e.which,
-  	arrow = {left: 65, right: 76 };
-	
-	switch (keyCode) {
+  	arrow = {left: 37, up: 38, right: 39, down: 40 };
 
-		case arrow.left:
-			$('#block1').animate({"right": "+=75px" }, "slow");
-			break;
+        switch (keyCode) {
 
-		case arrow.right:
-			$('#block2').animate({"right": "+=75px" }, "slow");
-			break
+            case arrow.left: 
+                $('#block').animate({"left": "-=1px"}, "slow");
+            break;
+
+            case arrow.right: 
+                $('#block').animate({"left": "+=1px"}, "slow");
+            break;
 		}
 	});	
 });
+  
+
+
   
