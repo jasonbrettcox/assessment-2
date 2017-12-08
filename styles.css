@@ -1,16 +1,63 @@
 body{
-    background-image:url("file:///Users/jasoncox/Desktop/wdi-work/assessment-2/images/raceway.jpg");
-    
-   /* -webkit-filter: blur(10%);  Safari 6.0 - 9.0 
-    filter: blur(10%);
-}*/
+   font-family: Helvetica, sans serif;
+	font-weight: 400i;
+	font-size: 96px;
+    text-align: center;
+    -webkit-filter: blur(100%);  Safari 6.0 - 9.0 
+    filter: blur(1000%);
+
+background-image:url("images/raceway.jpg");
+no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .racetrack-background{
-	background-image:url("file:///Users/jasoncox/Desktop/wdi-work/assessment-2/images/raceway.jpg");
-    width: 100%;
+font-family: Helvetica, sans serif;
+font-weight: 400i;
+size:48px;
+text-align: center;
+position: absolute;
+color: white;
+padding-left: 100px;
+	
+	
+
 }
 .clicktoplay{
-	position:absolute;left:0;top:0;
+	background-color: green;
+	position: absolute;
+    top: 400px;
+    left: 45%;
+    
+    width: 150px;
+    height: 75px;;
 	border-radius: 3px;
-	color: black;
+	color: white;
+}
+.stripe{
+	width: 100% 
+	height: 10px;
+	background-color: yellow;
+}
+.block2{
+	background-color: blue;
+position: absolute;
+left : 50px;
+margin: 5px;
+	width: 100px;
+	height: 100px;
+
+}
+.block1{
+	background-color: red;
+		position: absolute;
+right : 50px;
+left: 50px;
+top: 300px;
+margin: 5px;
+	width: 100px;
+	height: 100px;
+
 }
