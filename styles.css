@@ -43,6 +43,7 @@ padding-left: 100px;
 .block2{
 	background-color: blue;
 position: absolute;
+top: 400px;
 left : 50px;
 margin: 5px;
 	width: 100px;
