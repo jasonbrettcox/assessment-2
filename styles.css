@@ -1,0 +1,16 @@
+body{
+    background-image:url("file:///Users/jasoncox/Desktop/wdi-work/assessment-2/images/raceway.jpg");
+    
+   /* -webkit-filter: blur(10%);  Safari 6.0 - 9.0 
+    filter: blur(10%);
+}*/
+}
+.racetrack-background{
+	background-image:url("file:///Users/jasoncox/Desktop/wdi-work/assessment-2/images/raceway.jpg");
+    width: 100%;
+}
+.clicktoplay{
+	position:absolute;left:0;top:0;
+	border-radius: 3px;
+	color: black;
+}
