@@ -41,13 +41,13 @@ padding-left: 100px;
 	background-color: yellow;
 }
 .block2{
-	background-color: blue;
+	background-image: url("images/blue-racecar.png");
 position: absolute;
 top: 400px;
 left : 50px;
 margin: 5px;
-	width: 100px;
-	height: 100px;
+width: 100px;
+/* height: 100px; */
 
 }
 .block1{
